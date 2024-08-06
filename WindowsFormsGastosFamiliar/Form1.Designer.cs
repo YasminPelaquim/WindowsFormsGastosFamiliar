@@ -130,6 +130,7 @@
             this.btnLimpar.TabIndex = 9;
             this.btnLimpar.Text = "Novo Calculo";
             this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
             // 
             // btnFechar
             // 
@@ -139,6 +140,7 @@
             this.btnFechar.TabIndex = 10;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // label8
             // 
