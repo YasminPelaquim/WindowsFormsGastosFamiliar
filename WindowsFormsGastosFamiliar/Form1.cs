@@ -30,9 +30,9 @@ namespace WindowsFormsGastosFamiliar
 
             double saldo = renda - gastos;
 
-            lblGastos.Text = gastos.ToString();
+            lblGastos.Text = gastos.ToString("C");
 
-            lblSaldo.Text = saldo.ToString();
+            lblSaldo.Text = saldo.ToString("C");
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
